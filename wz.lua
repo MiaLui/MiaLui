@@ -1,4 +1,3 @@
-task.wait(10)
 local a = setmetatable({}, {
     __index = function(self, b) return game: GetService(b) end
 }) local c = a.CoreGui;
