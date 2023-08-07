@@ -1,4 +1,3 @@
-game.StarterGui:SetCore("SendNotification", {Title="Mia"; Text="Vui lòng đợ đợi 5s."; Duration=7;})
 task.wait(10)
 local a = setmetatable({}, {
     __index = function(self, b) return game: GetService(b) end
