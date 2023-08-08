@@ -1,6 +1,6 @@
 _G.putinha = "on" --on/off
 print "Infinity Tower Script Working!"
-local Gamepass_x2_cash = "no" -- yes/no
+local Gamepass_x2_chest = "no" -- yes/no|Mo_2_Ruong
 local So_tang = 999 -- So_tang_muon_di
 --[[         ___  ___       ___       __       __   __   __       ___                            
 			|   \/   |     /   \     |  |     |  | |  \ |  |     /   \                           
@@ -108,7 +108,7 @@ for i, v in pairs(game.Workspace:GetChildren()) do
 	game.Workspace.MissionObjects.Arena["1"].TeleporterLocation.CFrame = game.Workspace.Characters:WaitForChild(JESUS).HumanoidRootPart.CFrame
 	game.Workspace.LobbyTeleport.Interaction.CFrame = game.Workspace.Characters:WaitForChild(JESUS).HumanoidRootPart.CFrame
 			
-			if Gamepass_x2_cash == "yes" then
+			if Gamepass_x2_chest == "yes" then
 			click() wait(1) click() wait(1) click() wait(1) click() wait(1) click()
 			game.Workspace:WaitForChild("RaidChestSilver").ChestBase.CFrame = game.Workspace.Characters:WaitForChild(JESUS).HumanoidRootPart.CFrame
 			
