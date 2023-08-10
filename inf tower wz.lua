@@ -1,7 +1,7 @@
 _G.putinha = "on" --on/off
 print "Infinity Tower Script Working!"
 local Gamepass_x2_chest = "no" -- yes/no|Mo_2_Ruong
-local So_tang = 999 -- So_tang_muon_di
+local So_tang = 201 -- So_tang_muon_di
 --[[         ___  ___       ___       __       __   __   __       ___                            
 			|   \/   |     /   \     |  |     |  | |  \ |  |     /   \                           
 			|  \  /  |    /  ^  \    |  |     |  | |   \|  |    /  ^  \                          
