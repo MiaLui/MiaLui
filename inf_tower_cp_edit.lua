@@ -1,6 +1,6 @@
 print "Mia it's BEST!"
-task.wait(5)
-wait(5)
+task.wait(7)
+wait(7)
 
 local ve = game:service'VirtualInputManager'
 
