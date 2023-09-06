@@ -1,7 +1,30 @@
-print "Mia it's BEST!"
-task.wait(15)
-wait(15)
+_G.Mode = "on" --on/off | bat/tat [toggle script | cong tac bat script]
+_G.noti = "on" --on/off | [Notification - thong bao]
+local Gamepass_x2_chest = "no" -- yes/no|Mo_2_Ruong
+local So_tang = 141 -- So_tang_muon_di/floors can go
+--[[
 
+        DO NOT EDIT IN BELOW
+
+
+]]--
+if _G.noti == "on" then
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "FARMING ITEM",
+        Text = "Mia it's best.",
+        Duration = 5,
+        Button1 = "Okay"
+    })
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "Sending By MIA",
+        Text = "I love U, hehe",
+        Duration = 5,
+        Button1 = "Okay"
+    })
+end
+print "Mia it's BEST!"
+task.wait(7)
+wait(7)
 local ve = game:service'VirtualInputManager'
 
 function click()
