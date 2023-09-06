@@ -27,10 +27,6 @@ task.wait(4)
 wait(7)
 local ve = game:service'VirtualInputManager'
 
-function click()
-ve:SendMouseButtonEvent(697,412,0,true,game,0) ve:SendMouseButtonEvent(697,412,0,false,game,0)
-end
-
 local JESUS = game.Players.LocalPlayer.Name
 
 game.Workspace.Boss_Gate.Interactions.Bounds.CanCollide = false
