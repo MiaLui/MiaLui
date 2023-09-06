@@ -1,6 +1,6 @@
 _G.Mode = "on" --on/off | bat/tat [toggle script | cong tac bat script]
 _G.noti = "on" --on/off | [Notification - thong bao]
-local Gamepass_x2_chest = "no" -- yes/no|Mo_2_Ruong
+local Gamepass_x2_chest = "no" -- yes/no | [open x2 chest - Mo_2_ruong]
 local So_tang = 141 -- So_tang_muon_di/floors can go
 --[[
 
